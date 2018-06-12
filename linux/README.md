@@ -4,8 +4,8 @@
 查看电脑存储情况 df -h <br>
 
 ---
-查看进程 ps -ef或者 ps -ef |grep xx 
-查看进程比如我起了python flask_test.py想杀死的话那就 
+查看进程 ps -ef或者 ps -ef |grep xx<br>
+查看进程比如我起了python flask_test.py想杀死的话那就<br>
 ps -ef | grep flask*
 
 ---
