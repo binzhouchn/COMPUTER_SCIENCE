@@ -6,7 +6,8 @@
 ---
 查看进程 ps -ef或者 ps -ef |grep xx<br>
 查看进程比如我起了python flask_test.py想杀死的话那就<br>
-ps -ef | grep flask*
+ps -ef | grep flask*<br>
+查看端口可用netstat -antlp|grep 5000或者lsof -i:5000
 
 ---
 
