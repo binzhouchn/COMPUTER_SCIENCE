@@ -29,3 +29,5 @@ ps -ef | grep flask*<br>
 #! /bin/sh
 nohup python flask_test.py > ./test.log  2>&1 &
 ```
+两台电脑(ip)如果能ping通的话，拷贝文件操作;登录ip1然后把ip1中的egg文件拷到ip2<br>
+scp -r ChatterBot-0.8.7-py3.5.egg/ zhoubin@ip2:/opt/anaconda3/lib/python3.5/site-packages
