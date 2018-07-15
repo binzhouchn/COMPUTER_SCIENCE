@@ -12,7 +12,7 @@ ssh-keygen -t rsa -C "your_email@example.com"
 ```bash
 cat ~/.ssh/id_rsa.pub
 ```
-然后将一长串SSH Key粘贴到自己的git账户上。在github,settings,ssh and GPG keys中添加新ssh key就行
+然后将一长串SSH Key粘贴到自己的git账户上。在github->Settings->SSH and GPG keys中添加新ssh key就行
 
 3. 在终端或git Bash中输入以下代码
 ```bash
