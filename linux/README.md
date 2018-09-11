@@ -40,3 +40,16 @@ nohup python flask_test.py > ./test.log  2>&1 &
 ```
 两台电脑(ip)如果能ping通的话，拷贝文件操作;登录ip1然后把ip1中的egg文件拷到ip2<br>
 scp -r ChatterBot-0.8.7-py3.5.egg/ zhoubin@ip2:/opt/anaconda3/lib/python3.5/site-packages
+
+压缩：
+```bash
+tar  -czvf  sysconfig.tar.gz /etc/sysconfig/ 
+```
+命令解释：将目录/etc/sysconfig/打包成一个tar文件包，通过使用-z参数来调用gzip程序，对目录/etc/sysconfig/进行压缩，
+压缩成文件sysconfig.tar.gz，并且将压缩成的文件放在当前文件夹内。参数解释如下：
+-z 调用gzip程序来压缩文件，压缩后的文件名称以.gz结尾。
+解压：
+```bash
+tar -xzvf sysconfig.tar.gz
+```
+命令解释：这条命令是将上一条命令解压
