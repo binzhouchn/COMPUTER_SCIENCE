@@ -25,7 +25,7 @@ ps -ef | grep flask*<br>
 删除用户 userdel xxx 然后 groupdel xxx <br>
 
 进入文件夹 cd <br>
-打印列表 ls或者ll <br>
+打印列表 ls或者ll或者ll -h可以查看文件MB大小 <br>
 创建文件夹 mkdir <br>
 创建文件 vi或者nano <br>
 删除文件/文件夹 rm xxx.csv / rm -rf xxx <br>
