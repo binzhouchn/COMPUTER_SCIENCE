@@ -53,3 +53,25 @@ tar  -czvf  sysconfig.tar.gz /etc/sysconfig/
 tar -xzvf sysconfig.tar.gz
 ```
 命令解释：这条命令是将上一条命令解压
+
+7z命令：<br>
+解压
+```bash
+7za x phpMyAdmin-3.3.8.1-all-languages.7z -r -o./
+参数含义：
+x  代表解压缩文件，并且是按原始目录树解压（还有个参数 e 也是解压缩文件，但其会将所有文件都解压到根下，而不是自己原有的文件夹下）
+phpMyAdmin-3.3.8.1-all-languages.7z  是压缩文件，这里我用phpadmin做测试。这里默认使用当前目录下的phpMyAdmin-3.3.8.1-all-languages.7z
+-r 表示递归解压缩所有的子文件夹
+-o 是指定解压到的目录，-o后是没有空格的，直接接目录。这一点需要注意。
+```
+压缩
+```bash
+7za a -t7z -r Mytest.7z /opt/phpMyAdmin-3.3.8.1-all-languages/*
+参数含义：
+a  代表添加文件／文件夹到压缩包
+-t 是指定压缩类型，这里定为7z，可不指定，因为7za默认压缩类型就是7z。
+-r 表示递归所有的子文件夹
+Mytest.7z 是压缩好后的压缩包名
+/opt/phpMyAdmin-3.3.8.1-all-languages/*：是压缩目标。
+注意：7za不仅仅支持.7z压缩格式，还支持.tar.bz2等压缩类型的。如上所述，用-t指定即可。
+```
