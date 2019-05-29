@@ -11,6 +11,7 @@
 查看电脑内存 free<br>
 
 查看电脑存储情况 df -h<br>
+查看各文件夹大小:du -h --max-depth=1<br>
 
 ---
 查看进程 ps -ef或者 ps -ef |grep xx<br>
