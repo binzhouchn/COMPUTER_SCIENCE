@@ -76,3 +76,12 @@ Mytest.7z 是压缩好后的压缩包名
 /opt/phpMyAdmin-3.3.8.1-all-languages/*：是压缩目标。
 注意：7za不仅仅支持.7z压缩格式，还支持.tar.bz2等压缩类型的。如上所述，用-t指定即可。
 ```
+
+软连接
+```shell
+# 以gcc软连接为例
+sudo ln -s  /usr/local/Cellar/gcc/9.1.0/bin/c++-7 /usr/bin/c++
+sudo ln -s  /usr/local/Cellar/gcc/9.1.0/bin/g++-7 /usr/bin/g++
+sudo ln -s  /usr/local/Cellar/gcc/9.1.0/bin/gcc-7 /usr/bin/gcc
+sudo ln -s  /usr/local/Cellar/gcc/9.1.0/bin/gcc-7 /usr/bin/cc
+```
