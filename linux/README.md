@@ -85,3 +85,8 @@ sudo ln -s  /usr/local/Cellar/gcc/9.1.0/bin/g++-7 /usr/bin/g++
 sudo ln -s  /usr/local/Cellar/gcc/9.1.0/bin/gcc-7 /usr/bin/gcc
 sudo ln -s  /usr/local/Cellar/gcc/9.1.0/bin/gcc-7 /usr/bin/cc
 ```
+
+cp拷贝(默认会覆盖原有的文件，以下是不覆盖的方法)
+```shell
+cp -vnpr
+```
