@@ -55,6 +55,8 @@ tar -xzvf sysconfig.tar.gz
 ```
 命令解释：这条命令是将上一条命令解压
 
+[tar文件压缩和解压](https://www.cnblogs.com/Confusedren/p/11150709.html)<br>
+
 7z命令：<br>
 解压
 ```bash
