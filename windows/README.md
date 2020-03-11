@@ -13,5 +13,5 @@
 
 4. [VMware12安装Ubuntu 16.04(图文教程)](https://blog.csdn.net/colin_lisicong/article/details/70193539?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)<br>
 
-5. xxx
+5. xx
 
