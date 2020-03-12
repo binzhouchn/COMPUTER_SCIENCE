@@ -92,3 +92,10 @@ cp拷贝(默认会覆盖原有的文件，以下是不覆盖的方法)
 ```shell
 cp -vnpr
 ```
+
+[运行shell脚本时报错"\[\[ : not found"解决方法](https://blog.csdn.net/lc250123/article/details/90747798?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)<br>
+```
+sh命令无法识别"[[]]"表达式。
+
+解决办法：bash与sh是有区别的，两者是不同的命令，且bash是sh的增强版，而"[[]]"是bash脚本中的命令，因此在执行时，使用sh命令会报错，将sh替换为bash命令即可。
+```
