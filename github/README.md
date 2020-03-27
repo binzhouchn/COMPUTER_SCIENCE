@@ -18,3 +18,5 @@ cat ~/.ssh/id_rsa.pub
 ```bash
 ssh -T git@github.com
 ```
+
+4. [如何删除git中的.DS_Store(for mac)](https://www.cnblogs.com/mafeng/p/5985142.html)<br>
