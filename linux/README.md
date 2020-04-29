@@ -104,3 +104,11 @@ sh命令无法识别"[[]]"表达式。
 
 [Ubuntu：安装 cuda10.1 驱动](https://blog.csdn.net/sss_369/article/details/94591280)<br>
 [NVIDIA CUDA各版本下载链接（更新至2019-12-11，包含最新10.2版本）](https://blog.csdn.net/discoverer100/article/details/86696311?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1)<br>
+
+```shell
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/lib64
+export PATH=$PATH:/usr/local/cuda-10.1/bin
+export CUDA_HOME=$CUDA_HOME:/usr/local/cuda-10.1
+```
+
+### xxx
