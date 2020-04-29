@@ -99,3 +99,8 @@ sh命令无法识别"[[]]"表达式。
 
 解决办法：bash与sh是有区别的，两者是不同的命令，且bash是sh的增强版，而"[[]]"是bash脚本中的命令，因此在执行时，使用sh命令会报错，将sh替换为bash命令即可。
 ```
+
+### 安装cuda10.1及驱动
+
+[Ubuntu：安装 cuda10.1 驱动](https://blog.csdn.net/sss_369/article/details/94591280)<br>
+[NVIDIA CUDA各版本下载链接（更新至2019-12-11，包含最新10.2版本）](https://blog.csdn.net/discoverer100/article/details/86696311?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1)<br>
