@@ -111,4 +111,10 @@ export PATH=$PATH:/usr/local/cuda-10.1/bin
 export CUDA_HOME=$CUDA_HOME:/usr/local/cuda-10.1
 ```
 
-### xxx
+### 解决linux下vim显示乱码
+
+编辑~/.vimrc文件，加上如下几行：
+
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936<br>
+set termencoding=utf-8<br>
+set encoding=utf-8<br>
