@@ -149,3 +149,15 @@ sudo apt-get install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1 \
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936<br>
 set termencoding=utf-8<br>
 set encoding=utf-8<br>
+
+### docsify使用
+
+[简书](https://www.jianshu.com/p/4883e95aa903)<br>
+```shell
+# 安装
+npm i docsify-cli -g
+# 初始化项目，md文件可以放到docs文件夹下
+docsify init docs
+# 启动
+docsify serve docs
+```
