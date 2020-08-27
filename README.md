@@ -12,11 +12,11 @@
 
 ## 计算机原理
 
-**1. 数据结构/算法**<br>
+**1. 数据结构/算法**
 
-见[lintcode]或[leetcode](leetcode/)
+见[lintcode](https://github.com/binzhouchn/algor)或[leetcode](leetcode/)
 
-**2. 计算机网络**<br>
+**2. 计算机网络**
 
 [HTTP/TCP协议基础](https://www.cnblogs.com/sunshine-blog/p/8393264.html)<br>
 [计算机网络基础知识总结](https://www.runoob.com/w3cnote/summary-of-network.html)<br>
