@@ -22,3 +22,6 @@
 [计算机网络基础知识总结](https://www.runoob.com/w3cnote/summary-of-network.html)<br>
 [计算机网络基础知识整理](https://blog.csdn.net/m0_37568814/article/details/81018769?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param)<br>
 
+**3. 操作系统原理**
+
+xxx
