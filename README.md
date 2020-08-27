@@ -24,4 +24,5 @@
 
 **3. 操作系统原理**
 
-xxx
+[你当初是如何学会操作系统这门课程的？(知乎)](https://www.zhihu.com/question/270998611/answer/360930889)<br>
+[哈工大李治军老师的OS(视频)](https://www.bilibili.com/video/BV1d4411v7u7?p=1)<br>
