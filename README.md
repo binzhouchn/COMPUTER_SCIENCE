@@ -14,7 +14,7 @@
 
 1. 数据结构/算法<br>
 
-见[lintcode]或[leetcode]
+见[lintcode]或[leetcode](leetcode/)
 
 2. 计算机网络<br>
 
