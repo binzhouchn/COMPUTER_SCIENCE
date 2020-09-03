@@ -29,9 +29,9 @@
 
 **4. 其他**
 
- - 4.1 RSA加密过程
- I. 找出质数p,q
- II. n = p*q
- III. fi(n) = (p-1)*(q-1) 即欧拉函数
- IV. 公钥e，1<e<fi(n);e和fi(n)互质;私钥d，e*d除以fi(n)余数为1
- V. 加密：m**e除以n求余数C，将C传输；解密：C**d除以n求余数得到m
+ - 4.1 RSA加密过程<br>
+ I. 找出质数p,q<br>
+ II. n = p*q<br>
+ III. fi(n) = (p-1)*(q-1) 即欧拉函数<br>
+ IV. 公钥e，1<e<fi(n);e和fi(n)互质;私钥d，e*d除以fi(n)余数为1<br>
+ V. 加密：m**e除以n求余数C，将C传输；解密：C**d除以n求余数得到m<br>
