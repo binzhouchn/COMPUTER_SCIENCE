@@ -35,7 +35,7 @@ ps -ef | grep flask*<br>
 查看历史和删除历史 history / history -c <br>
 
 启动flask_test.py的python脚本然后nohup(日志进入test.log)：
-```python
+```shell
 #! /bin/sh
 nohup python flask_test.py > ./test.log  2>&1 &
 ```
