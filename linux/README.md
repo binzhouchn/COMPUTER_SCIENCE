@@ -24,6 +24,7 @@ ps -ef | grep flask*<br>
 创建用户 adduser xxx<br>
 给用户创建密码 passwd xxx 然后输入密码<br>
 删除用户 userdel xxx 然后 groupdel xxx<br>
+将用户添加到sudo组 usermod -aG sudo username
 
 进入文件夹 cd<br>
 打印列表 ls或者ll或者ll -h可以查看文件MB大小<br>
