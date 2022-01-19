@@ -110,6 +110,14 @@ cp拷贝(默认会覆盖原有的文件，以下是不覆盖的方法)
 cp -vnpr
 ```
 
+linux下修复vim打开中文乱码问题
+```shell
+#设置~下的.vimrc文件，加上fileencodings、enc、fencs，代码如下
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set enc=utf8
+set fencs=utf8,gbk,gb2312,gb18030
+```
+
 [运行shell脚本时报错"\[\[ : not found"解决方法](https://blog.csdn.net/lc250123/article/details/90747798?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)<br>
 ```
 sh命令无法识别"[[]]"表达式。
