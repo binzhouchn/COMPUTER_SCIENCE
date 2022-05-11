@@ -16,7 +16,7 @@ sudo reboot #重启
 
 cd /var
 sudo swapoff /var/swap #先关闭swap
-sudo dd if=/dev/zero of=swap bs=1 count=4096 #重新设置大小1M*4096=4G
+sudo dd if=/dev/zero of=swap bs=1M count=4096 #重新设置大小1M*4096=4G
 sudo mkswap /var/swap #格式化
 sudo swapon /var/swap #开启
 swapon -s #查看当前已生效的swap
