@@ -47,3 +47,11 @@ cmake --build .
 #运行以上代码即可看到一张彩色图和转换后的灰度图，表明opencv安装成功！
 ```
 
+## 2. 树莓派安装ubuntu mate 18.04
+
+[在树莓派3B+上安装ubuntu mate 18.04](http://t.zoukankan.com/Biiigwang-p-11735890.html)<br>
+[树莓派3b+ ubuntu 18.04添加SSH服务](https://blog.csdn.net/stephanezhang/article/details/104651185)<br>
+[树莓派ubuntu18.04 mate 安装VNC](https://blog.csdn.net/chenzz444/article/details/119016938)<br>
+
+
+
