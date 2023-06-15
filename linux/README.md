@@ -175,6 +175,17 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936<br>
 set termencoding=utf-8<br>
 set encoding=utf-8<br>
 
+### vim配置文件
+
+可参考工作macbook中~/.vimrc文件<br>
+```
+#解决一些配置完后报错问题
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+其他参考网址:https://github.com/junegunn/vim-plug
+
 ### docsify使用
 
 [简书](https://www.jianshu.com/p/4883e95aa903)<br>
