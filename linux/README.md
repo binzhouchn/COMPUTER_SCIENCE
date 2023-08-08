@@ -204,4 +204,6 @@ docsify serve docs
 
 ### 比iTerm2更好用的终端warp -- mac软件推荐
 
-https://www.warp.dev/
+官网：https://www.warp.dev/
+
+配置powerlevel10k：https://docs.warp.dev/features/prompt
