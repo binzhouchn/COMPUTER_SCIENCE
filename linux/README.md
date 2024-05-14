@@ -198,6 +198,12 @@ docsify init docs
 docsify serve docs
 ```
 
+### 反向SSH访问
+
+```shell
+ssh -CNg -L 6006:127.0.0.1:7860 root@connect.westc.gpuhub.com -p 55528
+```
+
 ### 配置好看的zsh
 
 [2022年打造程序员完美的终端环境，颜值爆表，效率 X 10倍 The Ultimate Guide to Your Terminal for Better Productivity](https://zhuanlan.zhihu.com/p/547895842)
